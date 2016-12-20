@@ -4,14 +4,14 @@ branches:
   only:
     - master
 
-assembly_info:
-  patch: true
-  file: AssemblyInfo.*
-  assembly_version: "{version}"
-  assembly_file_version: "{version}"
-  assembly_informational_version: "{version}"
+#assembly_info:
+#  patch: true
+#  file: AssemblyInfo.*
+#  assembly_version: "{version}"
+#  assembly_file_version: "{version}"
+#  assembly_informational_version: "{version}"
 
-configuration: Release
+#configuration: Release
 
 build_script:
 - cmd: >-
