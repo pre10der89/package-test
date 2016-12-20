@@ -24,6 +24,15 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Facebook.Yoga.Shared.Tests"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facebook.Yoga.Desktop.Tests", "Facebook.Yoga.Desktop.Tests\Facebook.Yoga.Desktop.Tests.csproj", "{AC23F444-5545-4196-8B9F-5C1F6B3E7FB3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2AA780E0-BCB7-4282-945D-6802A68ED304}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\NuGet\Facebook.Yoga.Native.nuspec = ..\..\NuGet\Facebook.Yoga.Native.nuspec
+		..\..\NuGet\Facebook.Yoga.Native.targets = ..\..\NuGet\Facebook.Yoga.Native.targets
+		..\..\NuGet\Facebook.Yoga.nuspec = ..\..\NuGet\Facebook.Yoga.nuspec
+		..\..\NuGet\Facebook.Yoga.targets = ..\..\NuGet\Facebook.Yoga.targets
+		..\..\NuGet\pack.ps1 = ..\..\NuGet\pack.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		..\Facebook.Yoga\Facebook.Yoga.Shared.projitems*{3aace384-fdec-4d91-a3b2-eeb21b46c9ad}*SharedItemsImports = 4
